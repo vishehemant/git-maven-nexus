@@ -4,7 +4,7 @@
     <name>${project.artifactId}</name>
     <groupId>com.git-maven-nexus</groupId>
     <artifactId>git-maven-nexus</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
 
     <properties>
         <jdk.version>1.8</jdk.version>
@@ -36,7 +36,7 @@
         <developerConnection>scm:git:https://github.com/vishehemant/git-maven-nexus.git</developerConnection>
         <connection>scm:git:https://github.com/vishehemant/git-maven-nexus.git</connection>
 	<url>scm:git:https://github.com/vishehemant/git-maven-nexus.git</url>
-      <tag>HEAD</tag>
+      <tag>1.0.3</tag>
   </scm>
     <distributionManagement>
         <repository>
