@@ -1,0 +1,12 @@
+---
+- hosts: dev
+  tasks:
+    - maven_artifact:
+        group_id: com.mycompany.app
+        artifact_id: my-app
+        version: '1.0-SNAPSHOT'
+        extension: jar
+        repository_url: 'http://mumchrep01:8081/#browse/browse:maven-3rdparty'
+        username: admin
+        password: root.123
+        dest: /tmp/my-app-1.0-SNAPSHOT.jar
